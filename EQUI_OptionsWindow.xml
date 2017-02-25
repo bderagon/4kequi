@@ -3,7 +3,7 @@
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
 	<Label item="OGP_ConfirmationsLabel">
 		<ScreenID>OGP_ConfirmationsLabel</ScreenID>
-		<Font>3</Font>
+		<Font>6</Font>
 		<Text>Confirmations</Text>
 		<TextColor>
 			<R>255</R>
@@ -11,8 +11,8 @@
 			<B>255</B>
 		</TextColor>
 		<Size>
-			<CX>84</CX>
-			<CY>15</CY>
+			<CX>168</CX>
+			<CY>30</CY>
 		</Size>
 	</Label>
 	<!-- *********** Options Tab Window, General Options Page *********** -->
@@ -20,9 +20,10 @@
 	<Button item="OGP_FastItemDestroyCheckbox">
 		<ScreenID>OGP_FastItemDestroyCheckbox</ScreenID>
 		<Size>
-			<CX>160</CX>
-			<CY>18</CY>
+			<CX>320</CX>
+			<CY>36</CY>
 		</Size>
+		<Font>6</Font>
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>Fast Item Destroy</Text>
 		<TextColor>
@@ -33,11 +34,11 @@
 		<TooltipReference>Toggle whether you want to destroy items without a confirmation window.</TooltipReference>
 		<Template>BDT_CheckboxWithText</Template>
 		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>32</CX>
+			<CY>32</CY>
 		</DecalSize>
 		<TextAlignCenter>false</TextAlignCenter>
-		<TextOffsetX>20</TextOffsetX>
+		<TextOffsetX>40</TextOffsetX>
 	</Button>
 	<!-- AA No Confirm -->
 	<Button item="OGP_AANoConfirmCheckbox">
@@ -1652,8 +1653,8 @@
 			<Y>325</Y>
 		</Location>
 		<Size>
-			<CX>175</CX>
-			<CY>384</CY>
+			<CX>350</CX>
+			<CY>768</CY>
 		</Size>
 		<Spacing>0</Spacing>
 		<ResizeLast>false</ResizeLast>
@@ -1689,6 +1690,7 @@
 		<Style_VScroll>true</Style_VScroll>
 		<TooltipReference />
 		<DrawTemplate>WDT_Def</DrawTemplate>
+		<Font>6</Font>
 		<TabText>General</TabText>
 		<TabTextColor>
 			<R>255</R>
@@ -1705,8 +1707,8 @@
 			<Y>22</Y>
 		</Location>
 		<Size>
-			<CX>387</CX>
-			<CY>720</CY>
+			<CX>774</CX>
+			<CY>1440</CY>
 		</Size>
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>VerticalLayoutBox:OGP_LeftLayout</Pieces>
@@ -4949,8 +4951,8 @@
 			<Y>47</Y>
 		</Location>
 		<Size>
-			<CX>400</CX>
-			<CY>530</CY>
+			<CX>800</CX>
+			<CY>1060</CY>
 		</Size>
 		<Text>Options</Text>
 		<TooltipReference />
